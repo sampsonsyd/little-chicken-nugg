@@ -11,8 +11,8 @@ html, body {
 }
 
 .container {
-    background-color: lemonchiffon;
     height: 100%;
+    background-color: lemonchiffon;
 }
 
 header {
@@ -38,6 +38,7 @@ aside {
 section {
      width: 60%;
      background-color: cornflowerblue;
-
+    display: inline-block;
+    float: left;
 }
 
