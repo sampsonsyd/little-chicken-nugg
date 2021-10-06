@@ -1,12 +1,11 @@
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
 }
 
-html, body { 
+.html, body { 
     height: 100%;
 }
 
@@ -15,22 +14,22 @@ html, body {
     background-color: lemonchiffon;
 }
 
-header {
+.header {
     height: 20%;
     background-color: tomato;
 }
 
-nav, footer {
+.nav, footer {
     height: 10%;
     background-color: aquamarine;
 }
 
-main { 
+.main { 
     height: 60%;
     background-color: blanchedalmond;
 }
 
-aside {
+.aside {
     width: 20%;
     height: 100%;
     background-color: chartreuse;
@@ -38,7 +37,7 @@ aside {
     float: left;
 }
 
-section {
+.section {
     width: 60%;
     height: 100%
     background-color: teal;
