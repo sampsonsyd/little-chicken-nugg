@@ -1,4 +1,4 @@
-
+/* this is remove html stylizing */
 
 *{
     margin: 0;
@@ -29,3 +29,15 @@ main {
     height: 60%;
     background-color: blanchedalmond;
 }
+
+aside {
+    width: 20%;
+    background-color: chartreuse;
+}
+
+section {
+     width: 60%;
+     background-color: cornflowerblue;
+
+}
+
