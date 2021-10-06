@@ -1,4 +1,4 @@
-/* this is remove html stylizing */
+
 
 *{
     margin: 0;
@@ -41,7 +41,7 @@ aside {
 section {
     width: 60%;
     height: 100%
-    background-color: cornflowerblue;
+    background-color: teal;
     display: inline-block;
     float: left;
 }
