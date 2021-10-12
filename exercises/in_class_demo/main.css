@@ -1,0 +1,20 @@
+body {
+    background-color: dimgray;
+}
+
+.main{
+    height: 100px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin: 0px;
+    width: 1000px;
+    height: 1000px;
+    background-color: darkred;
+    font-size: 42px;
+}
