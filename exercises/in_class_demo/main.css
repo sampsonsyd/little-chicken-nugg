@@ -22,16 +22,12 @@ body {
 
 
 .item{
-    /* flex-grow: 1;*/
+    flex-grow: 1;
     margin: 5px;
     width: 100px;
     height: 100px;
     background-color: rgb(255, 71, 230);
     font-size: 42px;
-  }
-
-  .item:nth-child(2){
-      order: 3;
   }
 
   .item:nth-child(3){
