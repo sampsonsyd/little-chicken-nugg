@@ -3,12 +3,6 @@ body {
     font-family: "Open Sans", sans-serif;
   }
 
-  .container{
-    display: inline-block;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
   .container {
     padding: 20px 80px;
     width: 10%;
