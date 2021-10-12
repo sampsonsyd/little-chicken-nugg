@@ -7,11 +7,8 @@ body {
     padding: 20px 80px;
     width: 10%;
     line-height: 1.68;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-  }
-  
+
+
   h1 {
     font-family: 'Bebas Neue', cursive;
     text-transform: capitalize;
@@ -25,4 +22,10 @@ body {
     font-style: italic;
     letter-spacing: 1px;
     font-size: 1.68em;
+  }
+
+  .item{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
   }
