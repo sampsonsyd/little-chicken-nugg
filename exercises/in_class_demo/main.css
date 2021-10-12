@@ -20,7 +20,9 @@ body {
     align-items: center;
 }
 
+
 .item{
+    /* flex-grow: 1;*/
     margin: 5px;
     width: 100px;
     height: 100px;
@@ -34,4 +36,5 @@ body {
 
   .item:nth-child(1){
     flex-grow: 2;
+    background: coral;
 }
