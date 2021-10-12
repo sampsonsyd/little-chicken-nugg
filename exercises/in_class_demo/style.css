@@ -1,50 +1,51 @@
+/* this is the reset to remove html element styling */
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
-}
+    box-sizing: border-box;
+  }
 
-.html, .body { 
+  html, body {
     height: 100%;
-}
+  }
 
-.container {
+container {
     height: 100%;
     background-color: lemonchiffon;
 }
 
-.header {
+header {
     height: 20%;
     background-color: tomato;
 }
-.nav, .footer {
+nav, footer {
     height: 10%;
     background-color: aquamarine;
 }
 
-.main { 
+main { 
     height: 60%;
     background-color: blanchedalmond;
 }
 
-.aside {
+aside {
     width: 20%;
     height: 100%;
     background-color: chartreuse;
     display: inline-block;
-    float: left;
+    
 }
 
-.section {
+section {
     width: 60%;
     display: inline-block;
     background-color: chartreuse;
     height: 100%
-    float: left;
+    
 }
 
-.box {
+box {
     position: fixed;
     top: 100px;
     left: 150px;
