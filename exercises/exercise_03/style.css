@@ -29,4 +29,6 @@ h1 {
     margin: 5px;
     width: 2.00em;
     height: 2.00em;
+    justify-content: flex-end;
+    display: flex;
   }
