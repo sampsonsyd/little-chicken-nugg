@@ -7,6 +7,9 @@ body {
     padding: 20px 80px;
     width: 10%;
     line-height: 1.68;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
   }
   
   h1 {
