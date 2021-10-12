@@ -23,9 +23,3 @@ body {
     letter-spacing: 1px;
     font-size: 1.68em;
   }
-
-  .item{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-  }
