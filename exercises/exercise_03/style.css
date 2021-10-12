@@ -8,12 +8,11 @@ body {
     justify-content: center;
     align-items: flex-end;
   }
-  
+
   .container {
     padding: 20px 80px;
     width: 10%;
     line-height: 1.68;
-
   }
   
   h1 {
