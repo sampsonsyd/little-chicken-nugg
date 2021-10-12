@@ -9,7 +9,7 @@ body {
   }
   
   h1 {
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Bebas Neue', cursive;
     text-transform: capitalize;
     font-size: 3.68em;
     line-height: 1.4em;
@@ -17,7 +17,7 @@ body {
   
   .pullquote {
     color: #d3d3d3;
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Bebas Neue', cursive;
     font-style: italic;
     letter-spacing: 1px;
     font-size: 1.68em;
