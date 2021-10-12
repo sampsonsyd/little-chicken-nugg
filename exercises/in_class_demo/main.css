@@ -24,7 +24,8 @@ body {
     margin: 5px;
     width: 100px;
     height: 100px;
-    background-color: tomato;
+    background-color: rgb(255, 71, 230);
     font-size: 42px;
-  
+    font-display: center;
+
   }
