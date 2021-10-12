@@ -9,6 +9,7 @@ body {
     line-height: 1.68;
     display: inline-block;
     justify-content: center;
+    align-items: flex-end;
   }
   
   h1 {
