@@ -29,6 +29,6 @@ h1 {
     margin: 5px;
     width: 100px;
     height: 100px;
-    background-color: tomato;
-    font-size: 42px;
+    font-size: 3.68em;
+    line-height: 1.4em;
   }
