@@ -25,10 +25,3 @@ h1 {
     font-size: 1.68em;
   }
 
-  .item{
-    margin: 5px;
-    width: 2.00em;
-    height: 2.00em;
-    justify-content: flex-end;
-    display: flex;
-  }
