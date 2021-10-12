@@ -2,14 +2,18 @@ body {
   background-color: palevioletred;
     font-family: "Open Sans", sans-serif;
   }
+
+  .container{
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-end;
+  }
   
   .container {
     padding: 20px 80px;
     width: 10%;
     line-height: 1.68;
-    display: inline-block;
-    justify-content: center;
-    align-items: flex-end;
+
   }
   
   h1 {
