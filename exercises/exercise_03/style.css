@@ -4,11 +4,10 @@ body {
   }
 
   .container {
-    padding: 20px 80px;
-    width: 10%;
+    padding: 20px 40px;
+    width: 50%;
     line-height: 1.68;
-
-   }
+  }
 
 h1 {
     font-family: 'Bebas Neue', cursive;
