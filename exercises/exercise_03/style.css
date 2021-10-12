@@ -24,3 +24,9 @@ h1 {
     font-size: 1.68em;
   }
 
+  .item{
+    margin: 75px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 210, 126);  
+  }
