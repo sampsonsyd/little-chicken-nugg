@@ -3,7 +3,7 @@ body {
     font-family: "Open Sans", sans-serif;
   }
   
-  container {
+  .container {
     padding: 20px 40px;
     width: 50%;
     line-height: 1.68;
@@ -19,7 +19,7 @@ body {
     line-height: 1.4em;
   }
   
-  pullquote {
+  .pullquote {
     color: #d3d3d3;
     font-family: 'Bebas Neue', cursive;
     font-style: italic;
