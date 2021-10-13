@@ -15,7 +15,6 @@ html,body{
 }
 
 
-
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -23,6 +22,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    background: palegreen;
 }
 
 /* This applies from 480px onwards */
