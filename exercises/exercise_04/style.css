@@ -15,10 +15,6 @@ html,body{
 }
 
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 .container {
     display: flex;
     flex-direction: column;
