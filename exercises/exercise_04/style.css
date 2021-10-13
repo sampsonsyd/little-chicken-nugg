@@ -10,18 +10,28 @@
 
 html,body{
     height: 100%;
+    width: 100%;
+    align-items: center;
     font-family: 'Libre Baskerville';
     font-style: italic;
 }
 
 
 .container {
+    width: 50%;
     display: flex;
     flex-direction: column;
     background: palegreen;
 }
 
 /* This applies from 480px onwards */
+
+@media (max-width: 768x){
+    .container{
+        background: orange;
+    }
+    
+}
 
 @media (min-width: 600px){
     .container{
@@ -30,9 +40,4 @@ html,body{
     
 }
 
-@media (min-width: 768x){
-    .container{
-        background: orange;
-    }
-    
-}
+
