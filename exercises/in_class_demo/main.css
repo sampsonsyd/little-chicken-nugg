@@ -33,4 +33,5 @@ body {
   .item:nth-child(3){
     flex-grow: 2;
     background: coral;
+    align-self: flex-end;
 }
