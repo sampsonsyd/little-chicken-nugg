@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap");
+
+/* This applies from 0px to 680px MOBILE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+}
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* This applies from 480px onwards */
+
+@media (min-width: 600px){
+    .container{
+        background: red;
+    }
+    
+}
+
+@media (min-width: 768x){
+    .container{
+        background: orange;
+    }
+    
+}
