@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body{
+.html, body{
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -25,11 +25,11 @@ ul.container{
    color: white; 
 }
 
-li{
+.li{
   padding: 0 40px;
 }
 
-li:hover{
+.li:hover{
   animation: changeMe 3s ease-in-out ;
 }
 
