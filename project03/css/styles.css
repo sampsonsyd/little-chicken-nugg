@@ -10,7 +10,7 @@
   }
   
   body {
-    color: edf6f9#;
+    color: #edf6f9;
     width: 100%;
   }
   
@@ -23,6 +23,15 @@
     justify-content: center;
   }
   
+  .window_three {
+    display: flex;
+    height: 100%;
+    background: #006d77;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
   .square {
     width: 300px;
     height: 300px;
