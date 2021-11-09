@@ -65,6 +65,18 @@
     animation-delay: 0s;
   }
   
+  .a {
+    text-decoration: none;
+    font-family: "roboto";
+    color: #ff007a;
+    font-size: 100px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
   @keyframes lookOut {
     0% {
       transform: scale(0.7);
@@ -75,4 +87,3 @@
       transform: scale(5);
     }
   }
-  
