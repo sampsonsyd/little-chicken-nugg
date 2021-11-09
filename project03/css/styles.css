@@ -10,14 +10,14 @@
   }
   
   body {
-    color: white;
+    color: edf6f9#;
     width: 100%;
   }
   
   .window_two {
     display: flex;
     height: 100%;
-    background: whitesmoke;
+    background: #006d77;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -33,10 +33,10 @@
     background: yellow;
   }
   .red {
-    background: red;
+    background: #cb7c9c;
   }
   .blue {
-    background: blue;
+    background: #83c5be;
   }
 
   .green {
