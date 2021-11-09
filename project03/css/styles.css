@@ -38,9 +38,7 @@
     background: white;
     transform: scale(0.7);
   }
-  .yellow {
-    background: yellow;
-  }
+
   .red {
     background: #cb7c9c;
   }
@@ -48,14 +46,8 @@
     background: #83c5be;
   }
 
-  .green {
-    background:green;
-  }
   .purple {
     background: purple;
-  }
-  .orange {
-    background:orange;
   }
   
   .square:hover {
@@ -81,9 +73,11 @@
     0% {
       transform: scale(0.7);
     }
-  
+    50% {
+      transform: scale(4);
+    }
   
     100% {
-      transform: scale(5);
+      transform: scale(2.5);
     }
   }
