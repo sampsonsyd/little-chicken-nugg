@@ -13,7 +13,26 @@
     color: #edf6f9;
     width: 100%;
   }
+
+  nav{
+    height: 60px;
+    }
   
+   ul.container{
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    background: rgb(42, 165, 89);
+    line-height: 60px; }
+
+ li{
+  padding: 0 40px;
+    }
+
+ .li:hover{
+  animation: changeMe 3s ease-in-out ;
+}
   .window_two {
     display: flex;
     height: 100%;
