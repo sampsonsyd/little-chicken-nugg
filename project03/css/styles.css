@@ -60,7 +60,7 @@
   .a {
     text-decoration: none;
     font-family: "roboto";
-    color: #ff007a;
+    color: #e6bbcf;
     font-size: 100px;
     font-weight: bolder;
     position: absolute;
@@ -74,6 +74,10 @@
     grid-template: auto;
  }
  
+  .span {
+    content: "\2190";
+  }
+
 
   @keyframes lookOut {
     0% {
