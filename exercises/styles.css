@@ -1,0 +1,21 @@
+element.style{
+
+}
+
+.header-module__header-content{
+    padding-bottom: 0;
+    padding-top: 0;
+    
+}
+
+
+.header-module__header-content{
+    padding-bottom: 15;
+    padding-top: 15;
+    webkit-animation: header-module__marquee___3XsJu 20s linear infinite;
+    animation: header-module__marquee___3XsJu 20s linear infinite;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
