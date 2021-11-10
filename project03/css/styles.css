@@ -24,10 +24,10 @@
     
     list-style: none;
     background: #d9d4e7;
-    line-height: 60px; }
+    line-height: 0px; }
 
  li{
-  padding:0 20px;
+  padding:0 0px;
     }
 
  .li:hover{
