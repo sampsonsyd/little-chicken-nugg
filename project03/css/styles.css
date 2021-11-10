@@ -23,11 +23,11 @@
     justify-content: space-around;
     
     list-style: none;
-    background: rgb(42, 165, 89);
+    background: #d9d4e7;
     line-height: 60px; }
 
  li{
-  padding: 0 40px;
+  padding:0px;
     }
 
  .li:hover{
@@ -90,7 +90,7 @@
   
  .grid{
     display: grid;
-    grid-template: auto;
+    grid-template-columns: repeat(5);
  }
  
   .span {
