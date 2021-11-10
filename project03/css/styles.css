@@ -15,16 +15,18 @@
   }
 
   nav{
-    height: 0px;
+    height: 60px;
     }
   
    ul.container{
     display: flex;
-    justify-content: space-around;
+    justify-content:right;
     
     list-style: none;
     background: #d9d4e7;
-    line-height: 0px; }
+    line-height: 60px;
+   }
+
 
  li{
   padding:0 0px;
