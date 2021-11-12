@@ -97,9 +97,6 @@ ul.container {
     grid-template-columns: repeat(5);
  }
  
-  .span {
-    content: "\2190";
-  }
 
 @keyframes colors {
   0% {
