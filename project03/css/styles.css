@@ -20,7 +20,7 @@ ul.container {
   justify-content: space-around;
   
   list-style: none;
-  background: #d9d4e7;
+  background: #006d7791;
   margin: 0;
   line-height: 60px;
 }
@@ -97,6 +97,9 @@ ul.container {
     grid-template-columns: repeat(5);
  }
  
+  .span {
+    content: "\2190";
+  }
 
 @keyframes colors {
   0% {
