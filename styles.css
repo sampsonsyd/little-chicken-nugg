@@ -18,12 +18,13 @@ ul.container{
     
     list-style: none;
     background: rgb(42, 165, 89);
+    margin:0;
     line-height: 60px; 
   }
 
-.container a{
+.container a {
   text-decoration: none;
-   color: white; 
+  color: white; 
 }
 
 .li{
@@ -31,10 +32,11 @@ ul.container{
 }
 
 .li:hover{
-  animation: changeMe 3s ease-in-out ;
+  animation: colors 3s,
+      ease-in-out .2s;
 }
 
-@keyframes changeMe{
+@keyframes colors{
     0%{
       background-color: violet;
       transformr:scale(0.1);
