@@ -31,25 +31,21 @@ ul.container{
   padding: 0 40px;
 }
 
-.li:hover{
-  animation: colors 3s,
-      ease-in-out .2s;
+.li:hover {
+  animation: colors 3s ease-in-out .2s;
 }
 
 @keyframes colors{
     0%{
       background-color: violet;
-      transformr:scale(0.1);
-      opacity: 1%;}
+           }
     50% {
       background-color: rgb(41, 119, 150);
-      transform: scale(1.2);
-      opacity: 0% }
+            }
     75% {
       background-color: rgb(6, 7, 87);
-      transform: none; }
+       }
     100% {
       background-color: violet;
-      transform: scale(1);
-      opacity: 0%;
+          }
 }
