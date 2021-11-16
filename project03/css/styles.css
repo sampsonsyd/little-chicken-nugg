@@ -28,8 +28,7 @@ ul.container {
 .container a {
   text-decoration: none;
   color: #F4F4F4;
-  background: #006d7791;
-}
+ }
 
  li{
   padding:0 0px;
@@ -105,6 +104,7 @@ ul.container {
     HOW DO I REDUCE COLUMN SPACING BETWEEN GRID ITEMS?*/
     grid-gap: 5px;
     padding: 50px;
+    background: #006d7791;
 }
 
 .grid-item1 {
