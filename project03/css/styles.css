@@ -29,6 +29,7 @@ ul.container {
   text-decoration: none;
   color: #F4F4F4;
  }
+ 
 
  li{
   padding:0 0px;
@@ -36,6 +37,25 @@ ul.container {
 
  .li:hover{
   animation: changeMe 3s ease-in-out ;
+
+@keyframe changeMe{ }
+
+@keyframes changeMe {
+    0% {
+      background-color: rgb(135, 71, 255);
+    }
+    40% {
+      background-color: #8100cc;
+  /*     color: rgba(200,155,20,0.8); */
+    }
+    60% {
+      background-color: #660080;
+    }
+    100% {
+      background-color: rgb(209, 109, 223);
+    }
+  
+  }
 }
   .window_two {
     display: flex;
@@ -133,22 +153,9 @@ ul.container {
   grid-column: 5;
   grid-row: 4;
 
-
-@keyframes colors {
-  0% {
-    background-color: rgb(135, 71, 255);
-  }
-  40% {
-    background-color: #8100cc;
-/*     color: rgba(200,155,20,0.8); */
-  }
-  60% {
-    background-color: #660080;
-  }
-  100% {
-    background-color: rgb(209, 109, 223);
-  }
-
+  
 }
 
-}
+
+
+
