@@ -27,11 +27,9 @@ ul.container {
 
 .container a {
   text-decoration: none;
-  color: #000000;
+  color: #F4F4F4;
  }
 
-
-    
  li{
   padding:0 0px;
     }
@@ -39,7 +37,6 @@ ul.container {
  .li:hover{
   animation: changeMe 3s ease-in-out ;
 }
-
   .window_two {
     display: flex;
     height: 100%;
@@ -58,19 +55,10 @@ ul.container {
     justify-content: center;
   }
 
-  .window_four {
-    display: flex;
-    height: 100%;
-    background: #3b5396;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-
   .square {
     width: 300px;
     height: 300px;
-    background: rgb(122, 29, 29);
+    background: white;
     transform: scale(0.7);
   }
 
@@ -120,9 +108,8 @@ ul.container {
   }
   
   section {
-    width: 100%;
+    width: 85%;
     height: 100%;
-    border: 1px solid whitesmoke;
    }
 
   .grid {
@@ -132,7 +119,7 @@ ul.container {
 
     grid-gap: 5px;
     padding: 50px;
- 
+    background: #fffffe;
 }
 
 .grid-item1 {
