@@ -104,11 +104,11 @@ ul.container {
     HOW DO I REDUCE COLUMN SPACING BETWEEN GRID ITEMS?*/
     grid-gap: 5px;
     padding: 50px;
-    background: #006d7791;
+    background: #fffffe;
 }
 
 .grid-item1 {
-    border:1px dashed whitesmoke;
+    border:1px dashed rgb(245, 245, 245);
     grid-column: 1/3;
     grid-row: 1/4;
 }
