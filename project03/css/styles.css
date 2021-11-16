@@ -79,6 +79,21 @@ ul.container {
     animation-timing-function: cubic-bezier(0.6, 0.87, 0.59, 0.46);
     animation-delay: 0s;
   }
+
+  
+  @keyframes lookOut {
+    0% {
+      transform: scale(0.7);
+    }
+    50% {
+      transform: scale(4);
+    }
+  
+    100% {
+      transform: scale(2.5);
+    }
+  }
+
   
   .a {
     text-decoration: none;
@@ -136,17 +151,4 @@ ul.container {
 
 }
 
-  @keyframes lookOut {
-    0% {
-      transform: scale(0.7);
-    }
-    50% {
-      transform: scale(4);
-    }
-  
-    100% {
-      transform: scale(2.5);
-    }
-  }
 }
-
