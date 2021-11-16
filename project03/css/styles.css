@@ -30,6 +30,33 @@ ul.container {
   color: #000000;
  }
 
+.container {
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-style: bold;
+    background-color:#8855dd;
+    color:#ffffff;
+
+ main {
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 15%;
+    height:100%;
+    border:2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
  li{
   padding:0 0px;
     }
