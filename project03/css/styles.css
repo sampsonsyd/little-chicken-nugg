@@ -125,12 +125,14 @@ ul.container {
 
 .grid-item1 {
     border:1px dashed rgb(95, 67, 161);
+    background-color: coral;
     grid-column: 1;
     grid-row: 3;
 }
 
 .grid-item2 {
   border:1px dashed rgb(167, 24, 24);
+  background-color: cadetblue;
   grid-column: 5;
   grid-row: 4;
 
