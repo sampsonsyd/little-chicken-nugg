@@ -4,12 +4,21 @@
     padding: 0;
   }
   
-  html,
-  body {
+  html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: black;
   }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-style: bold;
+    background-color:rgb(64, 64, 146);
+    color:rgb(143, 128, 69);
+}
   
   nav{
     height: 60px;
