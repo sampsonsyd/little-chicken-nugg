@@ -18,8 +18,41 @@
     font-style: bold;
     background-color:rgb(64, 64, 146);
     color:rgb(143, 128, 69);
+ 
 }
   
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "window-2 logo window-3"
+    "window-2 window window-3"
+    "window-2 arrow window-3";
+}
+
+.window { grid-area: window; }
+
+.window-2 { grid-area: window-2; }
+
+.window-3 { grid-area: window-3; }
+
+.arrow { grid-area: arrow; }
+
+.logo { grid-area: logo; }
+
+
+html, body , .container {
+  height: 100%;
+  margin: 0;
+}
+
+/* For presentation only, no need to copy the code below */
+
+.
+
   nav{
     height: 60px;
     }
