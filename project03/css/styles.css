@@ -40,7 +40,7 @@ ul.container {
   .window_two {
     display: flex;
     height: 100%;
-    background: #006d77;
+    background: #43248d;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -58,7 +58,7 @@ ul.container {
   .square {
     width: 300px;
     height: 300px;
-    background: rgb(202, 69, 69);
+    background: rgb(206, 125, 125);
     transform: scale(0.7);
   }
 
