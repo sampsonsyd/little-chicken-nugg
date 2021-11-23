@@ -7,7 +7,6 @@
   html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
   }
 
   .container {
@@ -61,7 +60,7 @@ ul.container {
   justify-content: space-around;
   
   list-style: none;
-  background: #006d7791;
+  background: #9aad7c;
   margin: 0;
   line-height: 60px;
 }
@@ -111,7 +110,7 @@ ul.container {
   }
 
   .purple {
-    background: purple;
+    background: #b0b0c3;
   }
   
   .square:hover {
@@ -121,6 +120,9 @@ ul.container {
     animation-delay: 0s;
   }
 
+  .span{
+    color: black;
+  }
   
   @keyframes lookOut {
     0% {
