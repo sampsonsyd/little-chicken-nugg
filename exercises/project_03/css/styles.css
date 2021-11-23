@@ -103,7 +103,7 @@ ul.container {
   .red {
     background: #cb7c9c;
   }
-  .blue {
+  .yellow {
     background: #83c5be;
   }
 
@@ -116,24 +116,6 @@ ul.container {
     animation-duration: 6s;
     animation-timing-function: cubic-bezier(0.6, 0.87, 0.59, 0.46);
     animation-delay: 0s;
-  }
-
-
-  .blue15{
-    width: 75%;
-    height: auto;
-  }
-
-  .lblue{
-    width: auto;
-    height: auto;
-    display: flex;
-  }
-
-  .green{
-    width: 50%;
-    height: auto;
-    display: flex;
   }
 
   }
