@@ -216,7 +216,8 @@ p {
     justify-content: center;
   }
 
-.banner{
+.banner{ 
+    initial;
 }
 
 marquee{
