@@ -6,13 +6,8 @@
   
   html, body {
     height: 100%;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
-
-
-section {
-  width: 100;
-}
 
   .container {
     height: 100%;
@@ -20,92 +15,40 @@ section {
     font-family: monospace;
     font-size: 1.5em;
     font-style: bold;
-}
-
-.banner{
-  text-align: center;
-  width: 100%;
-  margin: 0 0 3rem;
-  background-color: #c4d6a4;
-  padding: 1rem,0;
-  height: 0%;
-}
-
-marquee{
-  
-  padding: 10px;
-  color: #306959;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-family: 'Anton', sans-serif;
-}
-
-span{
-  color: #F04524;
+    background-color:rgb(64, 64, 146);
+    color:rgb(143, 128, 69);
+ 
 }
   
 .container {
-  display: grid; 
-  grid-template-columns: 1fr 300px 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 3px 5px; 
-  grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
     "window-2 logo window-3"
     "window-2 window window-3"
-    "window-2 arrow window-3"; 
+    "window-2 arrow window-3";
 }
+
 .window { grid-area: window; }
-.window-2 {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-area: window-2; 
-}
-.left- { grid-area: 2 / 1 / 4 / 4; }
-.bottom { grid-area: 3 / 1 / 4 / 4; }
-.window-3 {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "right right right"
-    "right right right"
-    "right right right"; 
-  grid-area: window-3; 
-}
-.right {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    "top top top"
-    "lower-right lower-right lower-right"
-    "lower-right lower-right lower-right"; 
-  grid-area: right; 
-}
-.lower-right {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    ". . ."
-    ". . ."
-    ". . ."; 
-  grid-area: lower-right; 
-}
-.top { grid-area: top; }
+
+.window-2 { grid-area: window-2; }
+
+.window-3 { grid-area: window-3; }
+
 .arrow { grid-area: arrow; }
+
 .logo { grid-area: logo; }
 
 
-html, body , {
+html, body , .container {
   height: 100%;
   margin: 0;
 }
+
+/* For presentation only, no need to copy the code below */
 
 .nav{
     height: 60px;
@@ -122,7 +65,6 @@ ul.container {
   line-height: 60px;
 }
 
-
 .container a {
   text-decoration: none;
   color: #F4F4F4;
@@ -135,69 +77,6 @@ ul.container {
  .li:hover{
   animation: changeMe 3s ease-in-out ;
 }
-
-h1 {
-  line-height: 1.25;
-  margin: 2em 0 0;
-}
-p {
-  font-family:'Anton'
-  margin: 0.5em 0;
-}
-
-#switcher {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-#switcher li {
-  float: left;
-  width: 30px;
-  height: 30px;
-  margin: 0 15px 15px 0;
-  border-radius: 30px;
-  border: 3px solid black;
-}
-
-/* button colors */
-
-#grayButton {
-  background-color: gray;
-}
-
-#whiteButton {
-  background: white;
-}
-
-#blueButton {
-  background: green;
-}
-
-#yellowButton {
-  background: yellow;
-}
-
-/* background colors */
-
-.gray-theme {
-  background-color: grey;
-}
-
-.white-theme {
-  background-color: white;
-}
-
-.yellow-theme {
-  background-color: yellow;
-}
-
-.blue-theme {
-  background-color: blue;
-  /*   change text to white */
-  color: white;
-}
-
   .window_two {
     display: flex;
     height: 100%;
@@ -216,24 +95,6 @@ p {
     justify-content: center;
   }
 
-.banner{
-}
-
-marquee{
-  display: flex;
-  flex-wrap: no-wrap;
-  justify-content: space-around;
-  padding: 10px;
-  color: #306959;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-family: 'Anton', sans-serif;
-}
-
-span{
-  color: #F04524;
-}
-  
   .square {
     width: 300px;
     height: 300px;
@@ -244,7 +105,7 @@ span{
   .red {
     background: #cb7c9c;
   }
-  .yellow {
+  .blue {
     background: #83c5be;
   }
 
@@ -259,7 +120,6 @@ span{
     animation-delay: 0s;
   }
 
-  }
   .span{
     color: black;
   }
