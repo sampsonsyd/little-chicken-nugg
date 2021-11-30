@@ -267,6 +267,12 @@ h1{
   font-family: 'Anton', sans-serif; 
 }
 
+h2{
+    font-size: 24px;
+    color: rgba(175, 37, 37, 0.76);
+    font-family: 'Anton', sans-serif; 
+  }
+
 p{
   font-size: 24px;
   font-family: 'Anton', sans-serif; 
