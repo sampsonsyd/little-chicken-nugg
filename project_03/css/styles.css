@@ -163,43 +163,6 @@ h6{
   border: 3px solid black;
 }
 
-/* button colors */
-
-#grayButton {
-  background-color: gray;
-}
-
-#whiteButton {
-  background: white;
-}
-
-#blueButton {
-  background: green;
-}
-
-#yellowButton {
-  background: yellow;
-}
-
-/* background colors */
-
-.gray-theme {
-  background-color: grey;
-}
-
-.white-theme {
-  background-color: white;
-}
-
-.yellow-theme {
-  background-color: yellow;
-}
-
-.blue-theme {
-  background-color: blue;
-  /*   change text to white */
-  color: white;
-}
 
   .window_two {
     display: flex;
@@ -266,7 +229,7 @@ span{
 
 h1{
   font-size: 48px;
-  color: purple;
+  color: ##f4f4f4;
   font-family: 'Anton', sans-serif; 
 }
 
