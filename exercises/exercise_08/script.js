@@ -1,38 +1,36 @@
-//exercise 06
-let age= 12;
-let height= 5;
-if( age <8){
-    console.log("Check out the Merry Go Round. You'll love it");
-}else if ( age> 8 && <65){
-    console.log("Check out the Merry Go Round. You'll love it");
-}else{
-    console.log(some )
+// Select each button
+var grayBtn = document.querySelector('#grayButton');
+var whiteBtn = document.querySelector('#whiteButton');
+var blueBtn = document.querySelector('#blueButton');
+var yellowBtn = document.querySelector('#yellowButton');
+
+// Add an event listener
+grayBtn.onclick = switchGray;
+whiteBtn.onclick = switchWhite;
+blueBtn.onclick = switchBlue;
+yellowBtn.onclick = switchYellow;
+
+// Write the event handler
+function switchGray() {
+  var body = document.querySelector('body');
+  body.style.backgroundColor = '#815E5B'; 
+  body.style.color = 'white'; 
 }
 
+function switchWhite() {
+  var body = document.querySelector('body');
+  body.style.backgroundColor = '#7A6F9B'; 
+  body.style.color = 'white'; 
+}
 
-//let item = arryName[Math.floor(Math.random())*arryName.lenght)]
-let noun = nouns[Math.floor(0)]
+function switchBlue() {
+  var body = document.querySelector('body');
+  body.style.backgroundColor = '#8B85C1'; 
+  body.style.color = 'white'; 
+}
 
-
-let array = ["1"]
-    array[2]
-    console.log('It works');
-
-    let nouns =["heart", "rainbow", "ocean"];
-    let verbs = ["look", "make", "continue"];
-    let adjectives =["good", "different", "possible"];
-
-    let noun = nouns[random]
-    let verbs = verbs[random]
-
-    console.log(nouns, random)
-    console.log(verbs, random])
-
-    let sentance = 'My ${noun} leaps ${adjectives} when I ${verb} a rainbow in the sky.'
-
-    let ranks = [ 'a', 'b', 'c',];
-    for (let i= 0; i < ranks.length)
-
-    for(ranks of ranks){
-        console.log(rank);
-    }
+function switchYellow() {
+  var body = document.querySelector('body');
+  body.style.backgroundColor = '#D4CDF4'; 
+  body.style.color = 'white'; 
+}
