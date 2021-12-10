@@ -1,9 +1,6 @@
-let age = 25;
-let height = 5;
-
-console.log(age);
-console.log(height);
-
+const sentance = [noun, verb, adjective, ...];  
+                                     
+let item= arrayName [Math.floor ( Math . random()*arrayName . length)]
 
 let noun = "cat";
 let verb = "bounds";
