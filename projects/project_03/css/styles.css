@@ -309,10 +309,7 @@ span{
 .text-frame { grid-area: 2 / 1 / 3 / 2;
 }
 
-.buildings {
- opacity: 0;
- transition: opacity .5s cubic-bezier (cubic-bezier(0.075, 0.82, 0.165, 1))
-}
+
 h2{
   text-align: center;
   font-size: 24px;
