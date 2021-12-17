@@ -17,12 +17,12 @@ whiteBtn.onclick = switchWhite;
 // Write the event handler
 function switchBlack() {
   var body = document.querySelector('body');
-  body.style.backgroundColor = '#815E5B'; 
+  body.style.backgroundColor = '#000000'; 
   body.style.color = 'white'; 
 }
 
 function switchWhite() {
   var body = document.querySelector('body');
-  body.style.backgroundColor = '#7A6F9B'; 
+  body.style.backgroundColor = '##faf9f7'; 
   body.style.color = 'white'; 
 }
