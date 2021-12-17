@@ -23,6 +23,6 @@ function switchBlack() {
 
 function switchWhite() {
   var body = document.querySelector('body');
-  body.style.backgroundColor = '##faf9f7'; 
-  body.style.color = 'white'; 
+  body.style.backgroundColor = '#faf9f7'; 
+  body.style.color = 'black'; 
 }

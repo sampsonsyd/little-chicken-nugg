@@ -175,11 +175,13 @@ body {
     font-size: 48px;
     font-family: "Yanone Kaffeesatz", sans-serif;
     text-transform: uppercase;
+    padding: 1;
   }
   
   p {
     font-family:'Anton';
     margin: 0.5em 0;
+    padding: 1;
   }
   
   h6{
