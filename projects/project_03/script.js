@@ -1,9 +1,3 @@
-  /*Adding a class when the toggle box is clicked*/
-    let menutoggle = document.querySelector('.toggle');
-    menutoggle.onclick = function(){
-        menutoggle.classList.toggle('active')
-    }
-
 // Select each button
 var blackBtn = document.querySelector('#blackButton');
 var whiteBtn = document.querySelector('#whiteButton');
