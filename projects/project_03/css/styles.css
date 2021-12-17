@@ -311,7 +311,7 @@ span{
 
 .buildings {
  opacity: 0;
- transition: opacity .25s cubic-bezier (cubic-bezier(0.075, 0.82, 0.165, 1))
+ transition: opacity .5s cubic-bezier (cubic-bezier(0.075, 0.82, 0.165, 1))
 }
 h2{
   text-align: center;
