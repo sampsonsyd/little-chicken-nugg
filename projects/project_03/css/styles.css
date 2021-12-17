@@ -1,248 +1,247 @@
 body {
-    margin: 0em;
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  
-  .layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 2.3fr 0.3fr;
-    gap: 10px 10px;
-    grid-auto-flow: row;
-    justify-content: stretch;
-    align-items: stretch;
-  }
-  
-  .header {
-    display: grid;
-    grid-template-columns: 1fr 1.7fr 0.3fr;
-    grid-template-rows: 0.1fr 3.2fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "logo logo ."
-      "logo logo navigation"
-      "logo logo switch";
-    grid-area: 1 / 1 / 2 / 4;
-  }
-  
-  .navigation { grid-area: navigation; 
-  }
-  
-  .toggle{
-    float: right;
-      justify-items: absolute; 
-      position: relative;
-      width: 70px;
-      height: 70px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
-      border-radius: 10px;
-      display: flex;
-      justify-content: end;
-      align-items: center;
-      cursor: pointer;
-      transition: background 1s;
-      overflow: hidden;
-  }
-  
-  .toggle span{
-      position: absolute;
-      width: 15px;
-      height: 4px;
-      background: black;
-      border-radius: 4px;
-    left: 15px;
-      transition: 0.5s;
-    animation: middle_loader 1.5s ease infinite;
-  }
-  
-  .toggle span:nth-child(1){
-      transform: translateY(-15px);
-      width: 15px;
-      left: 15px;
-    animation: loader 1.6s ease infinite;
-  }
-  
-  .toggle span:nth-child(2){
-      transform: translateY(15px);
-      width: 15px;
-      left: 15px;
-    animation: loader 1.6s ease infinite;
-  }
-  
-  /*Styling the active class*/
-  .toggle.active{
-      background-color: black;
-  }
-  
-  .toggle.active span{
-      background: #ffff;
-  }
-  
-  .toggle.active span:nth-child(1){
-      width: 40px;
-      transform: translateY(0px) rotate(45deg);
-      transition-delay: 0.125s;
-  }
-  
-  .toggle.active span:nth-child(2){
-      width: 40px;
-      transform: translateY(0px) rotate(315deg);
-      transition-delay: 0.25s;
-  }
-  
-  .toggle.active span:nth-child(3){
-      transform: translateX(60px); 
-  }
-  
-  #menu
-  {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-    
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-    
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-  
-  #menu li
-  {
-    padding: 10px 0;
-    font-size: 22px;
-  }
-  
-  /*
-   * And let's slide it in from the left
-   */
-  
-  /*Keyframes*/
-  @keyframes loader{
-    50%{
-      width: 40px;
-    }
-  }
-  
-  @keyframes middle_loader{
-    75%{
-      width: 40px;
-    }
-  }
-  
-  .switch { grid-area: switch; 
-  }
-  #switcher {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  #switcher li {
-    float: right;
-    width: 10px;
-    height: 10px;
-    margin: 0 1px 1px 0;
-    border-radius: 5px;
-    border: 3px solid black;
-  }
-  
-  #blackButton {
-    background: #000000;
-  }
-  #whiteButton {
-    background: #faf9f7;
-  }
-  
-  
-  .logo { grid-area: logo; 
-  }
-  
-  h1{
-    text-align: center;
-    font-style: italic;
-    font-size: 48px;
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    text-transform: uppercase;
-    padding: 1;
-  }
-  
-  p {
-    font-family:'Anton';
-    margin: 0.5em 0;
-    padding: 1;
-  }
-  
-  h6{
-    font-size: 10px;
-  }
+  margin: .5em;
+  padding: 1;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
 
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". . ."
-      "ticker ticker ticker"
-      ". . .";
-    grid-area: 3 / 1 / 4 / 4;
-  }
-  
-  .ticker { grid-area: ticker; 
-  }
-  
-  marquee{
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 2.3fr 0.3fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr 0.3fr;
+  grid-template-rows: 0.1fr 3.2fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "logo logo ."
+    "logo logo navigation"
+    "logo logo switch";
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+.navigation { grid-area: navigation; 
+}
+
+.toggle{
+  float: right;
+    justify-items: absolute; 
+    position: relative;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    border-radius: 10px;
     display: flex;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
-    padding: 5px;
-    color: #4dc252;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-family: 'Anton', sans-serif;
-  }
-  
-  span{
-    color: #F04524;
-  }
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    transition: background 1s;
+    overflow: hidden;
+}
 
-  .center {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1px 1px;
-    grid-auto-flow: row;
-    grid-area: 2 / 1 / 3 / 4;
+.toggle span{
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    background: lime;
+    border-radius: 4px;
+  left: 15px;
+    transition: 0.5s;
+  animation: middle_loader 1.5s ease infinite;
+}
+
+.toggle span:nth-child(1){
+    transform: translateY(-15px);
+    width: 15px;
+    left: 15px;
+  animation: loader 1.6s ease infinite;
+}
+
+.toggle span:nth-child(2){
+    transform: translateY(15px);
+    width: 15px;
+    left: 15px;
+  animation: loader 1.6s ease infinite;
+}
+
+/*Styling the active class*/
+.toggle.active{
+    background-color: lime;
+}
+
+.toggle.active span{
+    background: #ffff;
+}
+
+.toggle.active span:nth-child(1){
+    width: 40px;
+    transform: translateY(0px) rotate(45deg);
+    transition-delay: 0.125s;
+}
+
+.toggle.active span:nth-child(2){
+    width: 40px;
+    transform: translateY(0px) rotate(315deg);
+    transition-delay: 0.25s;
+}
+
+.toggle.active span:nth-child(3){
+    transform: translateX(60px); 
+}
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+
+/*Keyframes*/
+@keyframes loader{
+  50%{
+    width: 40px;
   }
-  
-  .placeholder { grid-area: 2 / 2 / 3 / 4; 
- }
-  
-  .text-frame { grid-area: 2 / 1 / 3 / 2;
+}
+
+@keyframes middle_loader{
+  75%{
+    width: 40px;
   }
-  
-  h2{
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Anton', sans-serif;
-  
-    
-  }
-  
-  
-  html, body , .layout {
-    height: 100%;
-    margin: 0;
-  }
+}
+
+.switch { grid-area: switch; 
+}
+#switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#switcher li {
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin: 0 1px 1px 0;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+#blackButton {
+  background: #000000;
+}
+#whiteButton {
+  background: #faf9f7;
+}
+
+
+.logo { grid-area: logo; 
+}
+
+h1{
+  text-align: center;
+  font-style: italic;
+  font-size: 48px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: uppercase;
+  padding: 1;
+}
+
+p {
+  font-family:'Anton';
+  text-align: center;
+  margin: 0.5em 0;
+  padding: 1px;
+}
+
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    "ticker ticker ticker"
+    ". . .";
+  grid-area: 3 / 1 / 4 / 4;
+}
+
+.ticker { grid-area: ticker; 
+}
+
+marquee{
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-around;
+  padding: 5px;
+  color: #4dc252;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Anton', sans-serif;
+}
+
+span{
+  color: #F04524;
+}
+
+.center {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-auto-flow: row;
+  grid-area: 2 / 1 / 3 / 4;
+}
+
+.placeholder { grid-area: 2 / 2 / 3 / 4; 
+background-color: red;}
+
+.text-frame { grid-area: 2 / 1 / 3 / 2;
+}
+
+h2{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Anton', sans-serif; }
+
+p{
+font-family: 'Anton', sans-serif; }
+}
+
+html, body , .layout {
+  height: 100%;
+  margin: 0;
+}
